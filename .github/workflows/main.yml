@@ -18,4 +18,4 @@ jobs:
       run: npm install -g apidog-cli
 
     - name: Running Test Scenario
-      run: apidog run --access-token $APIDOG_ACCESS_TOKEN --test-suite 890 -e 5663887 -r html,cli
+      run: apidog run --access-token $APIDOG_ACCESS_TOKEN --project-id 890 --environment-id 5663887 -r html,cli
